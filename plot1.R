@@ -26,7 +26,7 @@ sub_data = subset(data,as.Date(data$Timestamp) >= "2007-02-01"
 
 # Initiate the png device.
 
-png(filename="plot1.png", height=480, width=480, bg="transparent")
+png(filename="plot1.png", height=480, width=480)
 
 # Plot the histogram.
 
